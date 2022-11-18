@@ -8,7 +8,7 @@ export default function Error() {
     <div className="error">
       <Logo />
       <h1>Página não encontrada</h1>
-      <p>Esta página que você procurando não existe</p>
+      <p>A página que você procura não existe</p>
 
       <Link className="link" to="/">
         Voltar para a home
