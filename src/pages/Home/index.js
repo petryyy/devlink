@@ -4,6 +4,7 @@ import './home.css'
 import { Social } from '../../components/Social'
 
 import { FaFacebook, FaInstagram, FaYoutube } from 'react-icons/fa'
+import { Header } from '../../components/Header'
 
 import {
   getDocs,
@@ -79,6 +80,7 @@ export default function Home() {
   
   return (
     <div className='home-container'>
+      <Header />
       <h1>João Pedro Petry</h1>
       <span>Veja meus links 👇</span>
 
